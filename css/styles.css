@@ -514,13 +514,20 @@ img {
 }
 
 
-.label-footer {
+.title-footer {
   display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+}
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
+.label-footer {
+  
 }
 .input-footer {
   border: 1px solid #fff;
