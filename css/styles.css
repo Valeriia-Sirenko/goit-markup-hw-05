@@ -630,10 +630,10 @@ margin-left: 16px;
 .icon-button-footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-button-footer-color:hover {
+.icon-button-footer:hover {
   fill: #ffffff;
 }
-.icon-button-footer-color:focus {
+.icon-button-footer:focus {
   fill: #ffffff;
 }
 
