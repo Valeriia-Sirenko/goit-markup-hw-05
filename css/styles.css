@@ -566,18 +566,13 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   width: 165px;
   height: 40px;
   background: #4d5ae5;
-
-
-  font-size: 16px;
-  line-height: 150%;
-  color: #fff;
-  background: #4d5ae5;
+  min-width: 165px;
+  
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  display: block;
+  display: flex;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
   margin: 0 auto;
-  font-weight: 500;
-  letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
