@@ -630,14 +630,14 @@ margin-left: 16px;
 .icon-button-footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-button-footer:hover,
-.icon-button-footer:focus {
+.icon-button-footer-hover:hover,
+.icon-button-footer-hover:focus {
   fill: #ffffff;
 }
 .window-two {
 
 }
-.text-window-two {
+.text-window-one {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
