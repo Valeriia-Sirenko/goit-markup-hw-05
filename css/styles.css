@@ -577,9 +577,13 @@ img {
 }
 .icon-footer {
   margin-left: 16px;
+  fill: #fff;
 }
 .input-footer {
 }
+
+/*-- МОД ВЫКНО----------- */
+
 .modal-window {
   position: fixed;
   top: 0;
@@ -604,7 +608,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
-.button-modal-window {
+.button-window-one {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -621,21 +625,19 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-modal-window:hover,
-.button-modal-window:focus {
+.button-window-one:hover,
+.button-window-one:focus {
   background-color: #404bbf;
   border: none;
 }
-.icon-button-footer {
+.icon-window-one {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-button-footer-color:hover {
-  fill: #ffffff;
-}
-.icon-button-footer-color:focus {
-  fill: #ffffff;
-}
 
+.icon-window-one:hover,
+.icon-window-one:focus {
+  fill: #ffffff;
+}
 .text-window-one {
   font-weight: 500;
   font-size: 16px;
@@ -689,5 +691,4 @@ img {
   width: 100%;
   height: 120px;
 }
-
 /*  */
