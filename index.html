@@ -493,14 +493,13 @@
     <!-- МОДУЛЬНЕ ВІКНО -->
     <div class="modal-window">
       <div class="window-one">
+        <!-- кнопка Х -->
         <button class="button-window-one" type="button">
           <svg class="icon-window-one" width="8" height="8">
-            <use
-              class="icon-window-one-color"
-              href="./images/vector-icon.svg#icon-Vector"
-            ></use>
+            <use href="./images/vector-icon.svg#icon-Vector"></use>
           </svg>
         </button>
+        <!-- не кнопка Х -->
         <p class="text-window-one">
           Leave your contacts and we will call you back
         </p>
@@ -546,7 +545,25 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div></div>
+          <div class="container-two-window-one">
+            <input
+              class="input-user-privacy"
+              type="text"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              visually-hidden
+            />
+            <label class="label-user-privacy" for="user-privacy">
+              I accept the terms and conditions of the
+              <span class="span-label-user-privacy">
+                <svg class="icons-label-user-privacy" width="10" height="8">
+                  <use></use>
+                </svg>
+              </span>
+            </label>
+          </div>
         </form>
       </div>
     </div>
