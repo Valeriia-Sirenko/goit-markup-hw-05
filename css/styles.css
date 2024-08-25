@@ -721,6 +721,14 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.visually-hidden:checked ~ .checkbox-label .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.visually-hidden:checked ~ .checkbox-label .checkbox-svg {
+  fill: #f4f4fd;
+}
 
 .input-user-privacy:checked {
   background-color: #404bbf;
