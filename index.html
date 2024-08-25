@@ -423,7 +423,7 @@
         </div>
       </section>
     </main>
-    <!------- кінець футер ---------------------------------->
+    <!-- кінець футер ---------------------------------->
     <footer class="section-footer">
       <div class="container container-footer">
         <div class="container-footer-dox-one">
@@ -470,8 +470,8 @@
         </div>
         <div class="container-footer-dox-three">
           <p class="title-footer">Subscribe</p>
-          <form class="form-footer" action="">
-            <label class="label-footer" for="">
+          <form class="form-footer">
+            <label class="label-footer" for="subscribe">
               <input
                 class="input-footer"
                 type="email"
@@ -503,7 +503,7 @@
         <p class="text-window-one">
           Leave your contacts and we will call you back
         </p>
-        <form action="">
+        <form>
           <div class="container-window-one">
             <label class="label-window-one" for="user-name">Name</label>
             <div class="container-dox-window-one">
@@ -519,7 +519,7 @@
             </div>
           </div>
           <div class="container-window-one">
-            <label class="label-window-one" for="">Phone</label>
+            <label class="label-window-one" for="phone">Phone</label>
             <div class="container-dox-window-one">
               <input class="input-text" type="tel" id="phone" name="phone" />
               <svg class="icons-contacts" width="18" height="24">
@@ -528,7 +528,7 @@
             </div>
           </div>
           <div class="container-window-one">
-            <label class="label-window-one" for="">Email</label>
+            <label class="label-window-one" for="email">Email</label>
             <div class="container-dox-window-one">
               <input class="input-text" type="email" id="email" name="email" />
               <svg class="icons-contacts" width="18" height="24">
@@ -545,15 +545,15 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="checkbox container-two-window-one">
+          <div class="checkbox">
             <input
-              class="input-user-privacy visually-hidden"
+              class="visually-hidden"
+              type="checkbox"
               type="text"
               id="user-privacy"
               name="user-privacy"
-              type="checkbox"
-              value="true"
             />
+
             <label class="label-user-privacy" for="user-privacy">
               <span class="span-label-user-privacy">
                 <svg class="icons-label-user-privacy" width="10" height="8">
@@ -564,6 +564,19 @@
               <a class="linck-privacy-policy" href="">Privacy Policy</a>
             </label>
           </div>
+          <!--  <div class="checkbox">
+                    <input class="visually-hidden" name="user-privacy" type="checkbox" id="user-privacy" value="true" >
+                    <label class="checkbox-label" for="user-privacy">
+                        <span class="checkbox-span">
+                            <svg class="checkbox-svg" width="10" height="8">
+                                <use href="./images/icons.svg#icon-check">
+                                </use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="privacy">Privacy Policy</a>
+                    </label>
+                </div> -->
           <button class="button-send">Send</button>
         </form>
       </div>
