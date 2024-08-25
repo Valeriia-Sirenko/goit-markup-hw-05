@@ -670,6 +670,7 @@ img {
 .input-text:focus {
   border-color: #4d5ae5;
 }
+
 .icons-contacts {
   position: absolute;
   left: 16px;
@@ -677,9 +678,13 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons-contacts:focus {
+.icons-contacts:focus + svg {
   fill: #4d5ae5;
 }
+.label-window-one:focus ~ .icons-contacts {
+  fill: #4d5ae5;
+}
+
 .container-one-window-one {
   margin-bottom: 16px;
 }
@@ -704,6 +709,19 @@ img {
 .container-two-window-one {
   margin-bottom: 24px;
 }
+.input-user-privacy {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .input-user-privacy:checked {
   background-color: #404bbf;
   border: none;
@@ -748,5 +766,8 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
 }
 /*  */
